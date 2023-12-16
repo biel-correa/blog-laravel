@@ -16,7 +16,7 @@
     <!-- Scripts -->
     @vite(['resources/sass/app.scss', 'resources/js/app.js'])
 </head>
-<body>
+<body data-theme="main">
     <div id="app">
         @include('layouts.navbar')
 
